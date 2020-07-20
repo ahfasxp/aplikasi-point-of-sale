@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Jun 2020 pada 05.49
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.5
+-- Waktu pembuatan: 19 Jul 2020 pada 05.23
+-- Versi server: 10.4.13-MariaDB
+-- Versi PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -231,7 +231,8 @@ CREATE TABLE `roles` (
 --
 
 INSERT INTO `roles` (`id`, `name`, `guard_name`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'web', '2020-06-21 20:29:27', '2020-06-21 20:29:27');
+(1, 'admin', 'web', '2020-06-21 20:29:27', '2020-06-21 20:29:27'),
+(2, 'kasir', 'web', '2020-07-15 20:45:43', '2020-07-15 20:45:43');
 
 -- --------------------------------------------------------
 
@@ -422,7 +423,7 @@ ALTER TABLE `order_details`
 -- AUTO_INCREMENT untuk tabel `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT untuk tabel `products`
@@ -434,7 +435,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT untuk tabel `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
