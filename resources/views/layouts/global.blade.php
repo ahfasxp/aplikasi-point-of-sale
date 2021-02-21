@@ -43,14 +43,6 @@
                         @endif
                     </a>
                     <div class="dropdown-menu dropdown-menu-md dropdown-menu">
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-user-circle"></i> Profil
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-cog"></i> Setting
-                        </a>
-                        <div class="dropdown-divider"></div>
                         <a href="{{ route('logout') }}" class="dropdown-item"
                             onclick="event.preventDefault();document.getElementById('logout-form').submit();">
                             <i class="fas fa-sign-out-alt"></i> Logout
@@ -257,7 +249,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2019 <a href="#">Ahfasxp</a>.</strong>
+            <strong>Copyright &copy; 2014-2019 <a href="https://www.facebook.com/ahfasx.parigy" target="_blank">Muchamad Ahfas</a>.</strong>
             All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 <b>Version</b> 3.0.4
